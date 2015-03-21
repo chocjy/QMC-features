@@ -1,5 +1,5 @@
 # QMC Feature Maps
-Codes for quasi-Monte Carlo feature maps for Gaussian kernels.
+Codes for quasi-Monte Carlo feature maps for Gaussian kernels in MATLAB.
 
 ## About
 Given any pair of points *x* and *y*, compute a feature map *z(x)* and *z(y)* such that *k(x,y)* is approximated by the inner product between *z(x)* and *z(y)* where in this case *k* is the Gaussian kernel.
