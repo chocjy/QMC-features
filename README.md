@@ -2,11 +2,10 @@
 Codes for quasi-Monte Carlo feature maps for Gaussian kernels.
 
 ## About
-Given any pair of points *x* and *y*, compute a feature map *z(x)* and *z(y)* such that *k(x,y)* is approximated by the inner product between *z(x)* and *z(y)*.
+Given any pair of points *x* and *y*, compute a feature map *z(x)* and *z(y)* such that *k(x,y)* is approximated by the inner product between *z(x)* and *z(y)* where in this case *k* is the Gaussian kernel.
 
 ## Usage
 See `qmc_faeture_maps_complex.m` for usage.
-
 See `demo.m` for a simple example.
 
 ## References
