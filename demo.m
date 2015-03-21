@@ -1,4 +1,4 @@
-% generating random test matrix
+% generating random test matrices
 X = randn(1000,20);
 Xt = randn(500,20);
 
@@ -7,7 +7,7 @@ sigma = 0.1;
 s = 200;
 sequence = 'halton';
 
-% constructing QMC features
+% constructing new QMC features for X
 [Z, W] = random_fourier_qmc_complex(X, sigma, s, sequence);
 
 % construting QMC feature for Xt using W 
